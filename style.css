@@ -186,15 +186,6 @@
     line-height: 17px;
 }
 
-.blind {
-    position: absolute;
-    clip: rect(0 0 0 0);
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-}
-
 @media screen and (max-width: 360px) {
     #app {
         padding: 0 24px 32px;
