@@ -14,18 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     // 훈련 버튼
     btnGo.addEventListener("click", () => {
-        /*
-        let form = document.createElement('form');
-        form.action = 'https://google.com/search';
-        form.method = 'GET';
-
-        form.innerHTML = '<input name="q" value="`${}`">';
-
-        // 폼을 제출하려면 반드시 폼이 문서 안에 있어야 합니다.
-        document.body.append(form);
-
-        form.submit();
-        */
-        location.href = "https://www.google.co.kr/search?q=" + expertName;
+        let howExpert = expertName + "전문가 되는 법";
+        let link = "https://www.google.co.kr/search?q=" + howExpert;
+        window.open(link);
     });
 });
